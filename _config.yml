@@ -7,7 +7,7 @@ url: ''
 baseurl: 
 
 # Title of the Site
-title: Aaron's Website
+title: Aaron Gassier
 # Description of the Site
 description: Welcome to my personal website
 # URL of Image of the Site
@@ -18,21 +18,24 @@ site-keywords: Site, Personal, Aaron
 favicon-url: 
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://cdn.pixabay.com/photo/2021/08/18/19/26/background-6556413_1280.jpg
+heroimage: https://images.unsplash.com/photo-1625014618427-fbc980b974f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80
+# https://images.unsplash.com/photo-1626362073981-75205f952cf3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=933&q=80
+# https://cdn.pixabay.com/photo/2021/08/18/19/26/background-6556413_1280.jpg
+# https://images.unsplash.com/photo-1625014618427-fbc980b974f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
 email: gassieraaron+website@gmail.com
-facebook_username: /
-twitter_username: /
-instagram_username: /
+# facebook_username: /
+# twitter_username: /
+# instagram_username: /
 linkedin_username: aaron-gassier
 github_username: Aaron-Gassier
-youtube_channel_id: /
-reddit_username: /
-behance_username: /
-dribbble_username: /
-spotify_username: /
+# youtube_channel_id: /
+# reddit_username: /
+# behance_username: /
+# dribbble_username: /
+# spotify_username: /
 
 # Google Analytics
 google-analytics: / #UA-163806439-1
