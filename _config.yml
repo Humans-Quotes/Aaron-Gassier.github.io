@@ -1,0 +1,106 @@
+# WhatATheme
+markdown: kramdown
+
+# URL of the Site
+url: ''
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl: 
+
+# Title of the Site
+title: Aaron Gassier
+# Description of the Site
+description: Welcome to my personal website
+# URL of Image of the Site
+site-image: /WhatATheme/assets/images/meta.jpg
+# Keywords of the Site
+site-keywords: Site, Personal, Aaron
+# URL for the Image of custom Favicon
+favicon-url: 
+
+# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
+heroimage: https://images.unsplash.com/photo-1625014618427-fbc980b974f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80
+
+# Social Media and Contact
+# If you don't want to use any icon, you can leave them blank.
+email: gassieraaron+website@gmail.com
+# facebook_username: /
+# twitter_username: /
+# instagram_username: /
+linkedin_username: aaron-gassier
+github_username: Aaron-Gassier
+# youtube_channel_id: /
+# reddit_username: /
+# behance_username: /
+# dribbble_username: /
+# spotify_username: /
+
+# Google Analytics
+google-analytics: UA-163806439-1
+
+# Disqus
+disqus-shortname: /
+
+# Name of the Author
+author-name: Aaron Gassier
+# URL for the Image of the Author
+author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
+# 60 Words About the Author
+author-about: Bonjour! I am a management student at ESCP Business School, pursuing knowledge in the fields of management, finance, and Artificial Intelligence. This website serves as a platform for me to share my insights and discoveries.
+# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
+author-url: https://www.linkedin.com/in/aaron-gassier/
+
+# SASS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Build settings
+plugins:
+  - jekyll-admin
+  - jekyll-feed
+
+# Permalink
+permalink: "blog/:title"
+
+# Compress
+compress_html:
+  clippings: all
+
+# Defaults
+defaults:
+  -
+    scope:
+      type: 'posts'
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+#jekyll_admin:
+#  hidden_links:
+#    - posts
+#    - pages
+#    - staticfiles
+#    - datafiles
+#    - configuration
+#  homepage: "pages"
